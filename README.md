@@ -43,11 +43,11 @@ PetFriends — автоматизация тестирования
 ▎Структура
 ----------
 - 📂 petfriends-tests/
-    - ⚙️ conftest.py
-    - 🔧 settings.py
-    - 🎯 locators.py
-    - 🧪 test_pets.py
-    - 📄 README.md
+    - ⚙️ conftest.py      # фикстура драйвера, неявные ожидания
+    - 🔧 settings.py      # учётные данные и базовый URL
+    - 🎯 locators.py      # локаторы элементов страницы
+    - 🧪 test_pets.py     # основной тест
+    - 📄 README.md        # документация проекта
 
 
 ▎Проверки (30.3.1)
