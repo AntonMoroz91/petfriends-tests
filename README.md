@@ -42,12 +42,12 @@ PetFriends — автоматизация тестирования
 
 ▎Структура
 ----------
-📂 petfriends-tests/
-    ├── ⚙️ conftest.py
-    ├── 🔧 settings.py
-    ├── 🎯 locators.py
-    ├── 🧪 test_pets.py
-    └── 📄 README.md
+- 📂 petfriends-tests/
+    - ⚙️ conftest.py
+    - 🔧 settings.py
+    - 🎯 locators.py
+    - 🧪 test_pets.py
+    - 📄 README.md
 
 
 ▎Проверки (30.3.1)
