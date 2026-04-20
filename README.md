@@ -24,7 +24,7 @@ PetFriends — автоматизация тестирования
 
 Установка и запуск
 ------------------
-- 📥 git clone https://github.com/ТВОЙ_ЛОГИН/petfriends-tests.git
+- 📥 git clone https://github.com/AntonMoroz91/petfriends-tests.git
 - 📁 cd petfriends-tests
 - 📦 pip install selenium pytest
 - ▶️ pytest test_pets.py -v -s
