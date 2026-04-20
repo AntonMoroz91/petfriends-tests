@@ -23,25 +23,27 @@ PetFriends — автоматизация тестирования
 
 Установка и запуск
 ------------------
-1. Клонируйте репозиторий или создайте проект в PyCharm
-2. Установите зависимости:
-   pip install selenium pytest
-3. Убедитесь, что ChromeDriver установлен и доступен в PATH
-4. Укажите свои данные в файле settings.py:
-   VALID_EMAIL = "your_email@mail.ru"
-   VALID_PASSWORD = "your_password"
-   BASE_URL = "https://petfriends.skillfactory.ru"
-5. Запустите тест:
-   pytest test_pets.py -v -s
+- git clone https://github.com/ТВОЙ_ЛОГИН/petfriends-tests.git
+- cd petfriends-tests
+- pip install selenium pytest
+- pytest test_pets.py -v -s
+
+Важно
+-----
+Перед запуском укажите свои данные в файле settings.py:
+
+VALID_EMAIL = "ваш_email@mail.ru"
+VALID_PASSWORD = "ваш_пароль"
+BASE_URL = "https://petfriends.skillfactory.ru"
 
 Структура проекта
 -----------------
-petfriends_checks/
-  ├── conftest.py          # Фикстура драйвера, неявные ожидания
-  ├── settings.py          # Учётные данные и базовый URL
-  ├── locators.py          # Локаторы элементов страницы
-  ├── test_pets.py         # Основной тест
-  └── README.md            # Документация проекта
+- petfriends-tests/
+  - conftest.py          # Фикстура драйвера, неявные ожидания
+  - settings.py          # Учётные данные и базовый URL
+  - locators.py          # Локаторы элементов страницы
+  - test_pets.py         # Основной тест
+  - README.md            # Документация проекта
 
 Автотесты
 ---------
@@ -74,6 +76,6 @@ PASSED
 
 Автор
 -----
-Студент Skillfactory
-Курс «Тестировщик-автоматизатор на Python»
-Модуль 30
+   Студент Skillfactory
+   Курс «Тестировщик-автоматизатор на Python»
+   Модуль 30
