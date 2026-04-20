@@ -38,12 +38,12 @@ BASE_URL = "https://petfriends.skillfactory.ru"
 
 Структура проекта
 -----------------
-- petfriends-tests/
-  - conftest.py          # Фикстура драйвера, неявные ожидания
-  - settings.py          # Учётные данные и базовый URL
-  - locators.py          # Локаторы элементов страницы
-  - test_pets.py         # Основной тест
-  - README.md            # Документация проекта
+petfriends-tests/
+  ├── conftest.py          # Фикстура драйвера, неявные ожидания
+  ├── settings.py          # Учётные данные и базовый URL
+  ├── locators.py          # Локаторы элементов страницы
+  ├── test_pets.py         # Основной тест
+  └── README.md            # Документация проекта
 
 Автотесты
 ---------
@@ -76,6 +76,6 @@ PASSED
 
 Автор
 -----
-   Студент Skillfactory
-   Курс «Тестировщик-автоматизатор на Python»
-   Модуль 30
+Студент Skillfactory
+Курс «Тестировщик-автоматизатор на Python»
+Модуль 30
